@@ -4,8 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
-buildscript{
-    ext{
+buildscript {
+    ext {
         support = '26.1.0'
     }
 }
