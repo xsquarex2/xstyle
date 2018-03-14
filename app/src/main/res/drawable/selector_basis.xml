@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--当check选中时-->
+    <item android:state_checked="true"  android:drawable="@color/colorAccent"/>
+    <!--当激活时-->
+    <item android:state_activated="true" android:drawable="@color/colorAccent"/>
+    <!--当可以选中时-->
+    <item android:state_checkable="true" android:drawable="@color/colorAccent"/>
+    <!--当可用时-->
+    <item android:state_enabled="true" android:drawable="@color/colorAccent"/>
+    <!--当获取焦点时-->
+    <item android:state_focused="true" android:drawable="@color/colorAccent"/>
+    <!--当按压时-->
+    <item android:state_pressed="true" android:drawable="@color/colorAccent"/>
+    <!--
+        selector作为drawable资源时，item指定android:drawable属性，并放于drawable目录下；
+        selector作为color资源时，item指定android:color属性，并放于color目录下；
+        item是从上往下匹配的，如果匹配到一个item那它就将采用这个item
+    -->
+
+</selector>

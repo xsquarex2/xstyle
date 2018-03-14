@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.xsquare.xstyle.ui.SelectorActivity">
 
+    <CheckedTextView
+        android:id="@+id/ctv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:background="@drawable/selector_basis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
